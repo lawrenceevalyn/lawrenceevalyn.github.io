@@ -52,9 +52,14 @@ And then you can download R:
 
 ![pick your version of RStudio (Windows or Mac)](install-Rstudio-2.png)
 
+### A Tour of the RStudio Interface
+
 ### 3. Install [whatever packages I've just chosen to use]
 
 ### 4. Load the packages with the "library" command
+
+To see a list of the installed libraries, at the R command prompt, enter:
+library()
 
 ## 2. A mini research delve into a particular R command or two, like in the lesson you linked (2 hrs?) -- I'll pick something that seems fun. This part will include some discussion of what makes a corpus or a research question suitable for statistical analysis.
 
@@ -77,8 +82,18 @@ I'm not going to do, but should include resources about:
 * fitting topic models to detect particular discourses in the corpus using packages such as mallet and topicmodels.
 * applying dimensionality reduction techniques to plot stylistic tendencies over time or across multiple authors. For example, the package tsne performs a powerful form of dimensionality reduction particularly amenable to insightful plots.
 * stylo: https://sites.google.com/site/computationalstylistics/stylo
+* scripts for plotting histograms, barplots, boxplors, scatterplots http://www.indiana.edu/~phonlab/R/
+* Scripts for statistical tests that I don't understand http://www.indiana.edu/~phonlab/R/
+* rJava -- The R library rJava, a low-level R to Java interface, depends on the exact java version on the computing node. As it may happen that the default version of java on different computational nodes slightly differs (which may be due to an update in progress), rJava may appears to not work on some nodes
 
 ### Other Tutorials
+
+https://programminghistorian.org/lessons/r-basics-with-tabular-data
+https://programminghistorian.org/lessons/basic-text-processing-in-r
+
+http://www.indiana.edu/~phonlab/R/
+
+http://www.rexamples.com/8/How%20to%20run%20the%20code
 
 ### Glossay
 
