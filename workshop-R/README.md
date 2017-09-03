@@ -46,6 +46,12 @@ And then you can download R:
 
 ### 2. Install RStudio
 
+[Download RStudio](https://www.rstudio.com/products/rstudio/download/)
+
+![pick your version of RStudio (the free one)](install-Rstudio-1.png)
+
+![pick your version of RStudio (Windows or Mac)](install-Rstudio-2.png)
+
 ### 3. Install [whatever packages I've just chosen to use]
 
 ### 4. Load the packages with the "library" command
@@ -72,13 +78,15 @@ I'm not going to do, but should include resources about:
 * applying dimensionality reduction techniques to plot stylistic tendencies over time or across multiple authors. For example, the package tsne performs a powerful form of dimensionality reduction particularly amenable to insightful plots.
 * stylo: https://sites.google.com/site/computationalstylistics/stylo
 
+### Other Tutorials
+
 ### Glossay
 
-R
-RStudio
-R script
-R package
-function
+* R
+* RStudio
+* script
+* package
+* function
 
 ### U of T Resources
 
