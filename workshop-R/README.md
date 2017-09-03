@@ -4,12 +4,12 @@
 
 This workshop comes to you today in three parts:
 1. A substantial introductory period on "how do I run R on my computer anyway" and "how do I install R packages"
-2.. A mini research delve into a particular R command or two
+2. A mini research delve into a particular R command or two
 3. A survey of commonly-used R packages/commands, with a take-home resource on their names
 
 ## "how do I run R on my computer anyway"
 
-R is a programming language, not a program. In the interest of simplicity, we'll be using a program, RStudio, to run previously-written R code. It's so simple, there are only three complicated steps required before you can do anything useful:
+R is a programming language, not a program. In the interest of simplicity, we'll be using a program, RStudio, to run previously-written R code. It's so simple, there are only these complicated steps required before you can do anything useful:
 1. Install R
 1. Install RStudio
 1. Install the R package you want to use
