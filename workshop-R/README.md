@@ -81,7 +81,7 @@ I'm not going to do, but should include resources about:
 * running a full NLP annotation pipeline on the text to extract features such as named entities, part of speech tags, and dependency relationship. These are available in several R packages, including cleanNLP
 * fitting topic models to detect particular discourses in the corpus using packages such as mallet and topicmodels.
 * applying dimensionality reduction techniques to plot stylistic tendencies over time or across multiple authors. For example, the package tsne performs a powerful form of dimensionality reduction particularly amenable to insightful plots.
-* stylo: https://sites.google.com/site/computationalstylistics/stylo
+* stylo: https://sites.google.com/site/computationalstylistics/stylo   https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjb21wdXRhdGlvbmFsc3R5bGlzdGljc3xneDpmM2U3OGUzZTM2YjkyYzM
 * scripts for plotting histograms, barplots, boxplors, scatterplots http://www.indiana.edu/~phonlab/R/
 * Scripts for statistical tests that I don't understand http://www.indiana.edu/~phonlab/R/
 * rJava -- The R library rJava, a low-level R to Java interface, depends on the exact java version on the computing node. As it may happen that the default version of java on different computational nodes slightly differs (which may be due to an update in progress), rJava may appears to not work on some nodes
