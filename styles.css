@@ -1,0 +1,183 @@
+body {
+	background-color: #f1f1f9;
+	margin: 0;
+  	padding: 0;
+}
+
+.sidebar h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 350%;
+  color: #d3d3da;
+  display: block;
+  padding: 16px;
+  padding-top: 0;
+  margin:0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sidebar h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 150%;
+  color: #d3d3da;
+  display: block;
+  padding: 16px;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+.sidebar h3{
+  font-family: "Playfair Display", serif;
+  color: #d3d3da;
+  display: block;
+  padding: 16px;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+#colophon {
+  padding-top: 20px;
+}
+
+.content h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.content h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.content p {
+  font-family: "Roboto", serif;
+  font-size: 130%;
+  
+}
+
+.content li {
+  font-family: "Roboto", serif;
+  font-size: 130%;  
+}
+
+.long li {
+  margin-bottom: 15px;  
+}
+
+.content p + ul {
+  margin-top: -15px;
+}
+
+.content a {
+  color: #4c4a6c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#footer p {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+#footer {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+
+/* LAYOUT STUFF */
+
+/* Page content. The content margin-left must match the sidebar width */
+div.content {
+  margin-left: 350px;    /* <--- CHANGE US TOGETHER*/
+  padding-top: 75px;
+  padding-left: 25px;
+  padding-right: 16px;
+  height: 1000px;
+}
+
+ /* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 350px;          /* <--- CHANGE US TOGETHER */
+  background-color: #262536;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  font-family: "Playfair Display", serif;
+  display: block;
+  color: #d3d3da;
+  padding: 16px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 125%;
+}
+
+#colophon a {
+  font-family: "Playfair Display", serif;
+  font-size: 100%;
+  color: #d3d3da;
+  display: block;
+  padding: 0px;
+  padding-top: 0;
+  margin:0;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4c4a6c;
+  color: #d3d3da;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #393751;
+  color: #d3d3da;
+}
+
+#colophon a:hover:not(.active) {
+  background-color: 262536;
+  color: #d3d3da;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  
+  div.content{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    padding: 0px;
+  }
+  
+  div.content{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+} 
